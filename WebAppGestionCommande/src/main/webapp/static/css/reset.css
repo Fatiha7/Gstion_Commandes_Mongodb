@@ -1,0 +1,93 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, main {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+form{
+	 margin-top: 1rem !important;
+	 margin-left: -0.25rem !important;
+	 margin-right: 0.5rem !important;
+}
+.h5 {
+
+}
+.h4 {
+	font-style: italic;
+	color:#585858;
+	text-decoration: underline;
+}
+h2 {
+	font-family: Georgia;
+  text-shadow: 2px 2px 5px #808080;
+}
+input,label,select{
+	margin-top: 0.5rem !important;
+	
+}
+
+.custom-select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 10px 38px 10px 16px;
+    background: #fff url("select-arrows.svg") no-repeat right 16px center;
+    background-size: 10px;
+    transition: border-color .1s ease-in-out,box-shadow .1s ease-in-out;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+.custom-select:hover {
+    border: 1px solid #999;
+}
+.custom-select:focus {
+    border: 1px solid #999;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,.2);
+    outline: none;
+}
+/* remove default arrow in IE */
+select::-ms-expand {
+    display:none;
+}
